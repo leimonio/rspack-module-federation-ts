@@ -1,0 +1,17 @@
+{
+  "name": "rspack-module-federation-ts",
+  "version": "1.0.0",
+  "description": "Rspack + Module Federeration + Typescript + React example",
+  "license": "MIT",
+  "scripts": {
+    "build": "pnpm --filter \"rspack-module-federation-ts-*\" build",
+    "dev": "pnpm --filter \"rspack-module-federation-ts-*\" dev",
+    "start": "pnpm --filter \"rspack-module-federation-ts-*\" start"
+  },
+  "packageManager": "pnpm@9.6.0",
+  "pnpm": {
+    "overrides": {
+      "react-focus-lock": "2.11.3"
+    }
+  }
+}

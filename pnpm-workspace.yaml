@@ -1,0 +1,4 @@
+packages:
+  - "app/**"
+  - "lib1/**"
+  - "lib2/**"
